@@ -1,0 +1,72 @@
+#cal{
+    position: relative;
+    top: 110px;
+    left: 450px;
+    background-color: rgba(0, 0, 0, 0.806);
+    display:inline-block;
+    border-radius: 5px;
+    
+}
+
+
+
+#display{
+    background-color: orange;
+    border-radius: 5px;
+
+  
+}
+#upper{
+    position: relative;
+    left: 15px;
+    margin-left: 8px;
+    color: white;
+    background-color: cadetblue;
+    font-size: 19px;
+    border-radius: 4px;
+    }
+#lower{
+    position: relative;
+    left: 15px;
+    margin-left: 8px;
+    color: white;
+    background-color: rgb(112, 167, 169);
+    font-size: 19px;
+    border-radius: 4px;
+}
+#foter{
+    position: relative;
+    left: 15px;
+    margin-left: 8px;
+    color: white;
+    background-color: rgb(112, 167, 169);
+    font-size: 19px;
+    border-radius: 4px;
+}
+#equel{
+    position: relative;
+    left: 50px;
+    width: 50px;
+    color: rgb(231, 211, 211);
+    background-color: crimson;
+    border-radius: 5px;
+}
+#dot{
+    position: relative;
+    left: 15px;
+    margin-left: 8px;
+    color: white;
+    background-color: cadetblue;
+    font-size: 19px;
+    border-radius: 4px;
+    width: 30px;
+    border-radius: 5px;
+}
+#equel:hover{
+    box-shadow: 0px 0px 14px white;
+    top:3px
+}
+#cal:hover{
+    box-shadow: 0px 0px 180px 10px gold;
+  
+}

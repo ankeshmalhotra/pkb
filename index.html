@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="cal">
+    <form name="forms">
+    <input id="display" name="answer" type="text" placeholder="use thise calculater" readonly>
+    <br><br>
+    <input id="upper" type="button" value="c" onclick="forms.answer.value =''">
+    <input id="upper" type="button" value="/" onclick="forms.answer.value +='/'">
+    <input id="upper" type="button" value="x" onclick="forms.answer.value +='*'">
+    <input id="dot" type="button" value="." onclick="forms.answer.value +='.'">
+    <br>
+    <input id="lower" type="button" value="1" onclick="forms.answer.value +='1'">
+    <input id="lower" type="button" value="2" onclick="forms.answer.value +='2'">
+    <input id="lower" type="button" value="3" onclick="forms.answer.value +='3'">
+    <input id="lower" type="button" value="+" onclick="forms.answer.value +='+'"><br>
+    <input id="lower" type="button" value="4" onclick="forms.answer.value +='4'">
+    <input id="lower" type="button" value="5" onclick="forms.answer.value +='5'">
+    <input id="lower" type="button" value="6" onclick="forms.answer.value +='6'">
+    <input id="lower" type="button" value="-" onclick="forms.answer.value +='-'">
+    <br>
+    <input id="foter" type="button" value="7" onclick="forms.answer.value +='7'">
+    <input id="foter" type="button" value="8" onclick="forms.answer.value +='8'">
+    <input id="foter" type="button" value="9" onclick="forms.answer.value +='9'">
+    <input id="foter" type="button" value="0" onclick="forms.answer.value +='0'"> 
+    <br>
+    <input id="equel" type="button" value="=" onclick="forms.answer.value=eval(forms.answer.value)">
+    </form>
+    </div>
+</body>
+
+</html>
